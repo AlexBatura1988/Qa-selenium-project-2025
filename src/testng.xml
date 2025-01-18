@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+    <test thread-count="5" name="Automation">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+
+            <class name="com.alex.RegisterTest"/>
+
+        </classes>
+    </test> <!-- seleniumJavaQA -->
+</suite> <!-- Default Suite -->
